@@ -1,0 +1,1 @@
+@extends('app')@section('content')    <h1>this is a contact!</h1>@stop@section('footer')    @if(1 === true)        <h1>条件不成立！</h1>    @else        <script>alert('this is a dialog');</script>    @endif    <h1>business name:</h1>    <ol type="I">        @foreach($people as $names)            <li>{{$names}}</li>        @endforeach    </ol>@stop

@@ -1,0 +1,1 @@
+@extends('app')@section('content')  <h1>{{$one}}{{$two}}</h1>    <h2>blade 模板</h2>@stop
